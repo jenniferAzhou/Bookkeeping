@@ -1,0 +1,111 @@
+{
+  "Version": "1.3",
+  "ID": "f1lhkudy3pi7w4hxneewbzj57uhr5h22xpphujwyq",
+  "Issue Number": "1",
+  "Client Contract Address": "f410fersq5lrlyfkolgvkkbljgn5qvmor2hueiqel3uq",
+  "Client": {
+    "Name": "China Intangible Cultural Heritage",
+    "Region": "China",
+    "Industry": "Information, Media & Telecommunications",
+    "Website": "https://www.ihchina.cn/",
+    "Social Media": "https://www.ihchina.cn/",
+    "Social Media Type": "Other",
+    "Role": "Dataset Owner"
+  },
+  "Project": {
+    "Brief history of your project and organization": "China's intangible cultural heritage refers to various traditional cultural expressions passed down from generation to generation by the people of all ethnic groups in China, which are regarded as part of their cultural heritage, as well as physical objects and places related to traditional cultural expressions. Intangible cultural heritage is an important component of China's excellent traditional culture, a vivid witness to the continuous inheritance of Chinese civilization, and an important foundation for connecting national emotions and maintaining national unity.",
+    "Is this project associated with other projects/ecosystem stakeholders?": "No",
+    "Describe the data being stored onto Filecoin": "Some videos of China's intangible cultural heritage，I hope it stays permanent.",
+    "Where was the data currently stored in this dataset sourced from": "My Own Storage Infra",
+    "How do you plan to prepare the dataset": "We will use the Boost tool and singularity to make a car file.",
+    "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "https://www.ihchina.cn/#page1\nhttps://www.ihchina.cn/ziyuan\nhttps://www.ihchina.cn/tea_h5/\nhttps://www.ihchina.cn/video.html",
+    "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "[x] I confirm",
+    "What is the expected retrieval frequency for this data": "Yearly",
+    "For how long do you plan to keep this dataset stored on Filecoin": "More than 3 years",
+    "In which geographies do you plan on making storage deals": "Greater China, Asia other than Greater China, North America, South America",
+    "How will you be distributing your data to storage providers": "HTTP or FTP server, Shipping hard drives",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "f03577777  Singapore\nf03577778  Singapore\nf03567898  Shenzhen\nf03567899  Shenzhen\nf03377773 Vietnam\nf03377778 Vietnam\nf03373733 Guangdong\nf03373337 Guangdong\nf03373373 Guangdong",
+    "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "Yes"
+  },
+  "Datacap": {
+    "Type": "ldn-v3",
+    "Data Type": "Slingshot",
+    "Total Requested Amount": "3PiB",
+    "Single Size Dataset": "400TiB",
+    "Replicas": 8,
+    "Weekly Allocation": "1PiB"
+  },
+  "Lifecycle": {
+    "State": "Granted",
+    "Validated At": "2025-09-02 02:25:03.530389687 UTC",
+    "Validated By": "jenniferAzhou",
+    "Active": true,
+    "Updated At": "2025-09-02 02:25:03.530385727 UTC",
+    "Active Request ID": "051afb38-71d7-42e0-898f-0d2e9b9ddb6b",
+    "On Chain Address": "f1lhkudy3pi7w4hxneewbzj57uhr5h22xpphujwyq",
+    "Multisig Address": "false",
+    "edited": false
+  },
+  "Allocation Requests": [
+    {
+      "ID": "051afb38-71d7-42e0-898f-0d2e9b9ddb6b",
+      "Request Type": "First",
+      "Created At": "2025-09-01 03:11:22.449348043 UTC",
+      "Updated At": "2025-09-01 03:11:22.449348998 UTC",
+      "Active": false,
+      "Allocation Amount": "164926744166400 B",
+      "Amount of Datacap Sent to Contract": "164926744166400 B",
+      "Signers": [
+        {
+          "Github Username": "jenniferAzhou",
+          "Signing Address": "f1a2bvgmjgjx63fa6ehl4rz4neiihrm55qfgywvsa",
+          "Created At": "2025-09-02 02:25:03.355000000 UTC",
+          "Message CID": "bafy2bzaceaxvvat3fkk7cco4qvreqclw46qrou6qggamhxbr6634yffyxc2ea",
+          "Increase allowance CID": "bafy2bzacec4vz6e5prdpnoc23k26q5xgatxh65twf5hznmidw5knv5a7adgbs"
+        }
+      ]
+    }
+  ],
+  "Storage Providers Change Requests": [
+    {
+      "ID": "22053b3d-0431-4814-9abe-e8713c708f65",
+      "Created At": "2025-09-02 02:22:05.796859184 UTC",
+      "Updated At": "2025-09-02 02:22:05.796863654 UTC",
+      "Active": false,
+      "Allowed Storage Providers": [
+        3577777,
+        3577778,
+        3567898,
+        3567899,
+        3377773,
+        3377778,
+        3373733,
+        3373337,
+        3373373
+      ],
+      "Max Deviation": "10%",
+      "Signers": [
+        {
+          "Github Username": "jenniferAzhou",
+          "Signing Address": "f1a2bvgmjgjx63fa6ehl4rz4neiihrm55qfgywvsa",
+          "Set Max Deviation CID": "bafy2bzacebxxczxkeuchvx2gudkkezgvy4biknwp45ikzwvhahgho6al7okfy",
+          "Add Allowed Storage Providers CID": {
+            "bafy2bzacedbpdyj2f7d3n67um2tpep2emhrwdrj4y4jcen76b5lppg4vjqekk": [
+              "3577777",
+              "3577778",
+              "3567898",
+              "3567899",
+              "3377773",
+              "3377778",
+              "3373733",
+              "3373337"
+            ],
+            "bafy2bzaceb7vuxkzgivge6gkpi34fbsnsuh44a3hk4nxvzu6v3oahzsz44tpc": [
+              "3373373"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
