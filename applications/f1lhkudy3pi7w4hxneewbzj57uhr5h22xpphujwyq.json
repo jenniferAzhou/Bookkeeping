@@ -36,11 +36,11 @@
     "Weekly Allocation": "1PiB"
   },
   "Lifecycle": {
-    "State": "ReadyToSign",
-    "Validated At": "2025-09-02 02:22:05.796871752 UTC",
+    "State": "Granted",
+    "Validated At": "2025-09-02 02:25:03.530389687 UTC",
     "Validated By": "jenniferAzhou",
     "Active": true,
-    "Updated At": "2025-09-02 02:22:05.796870768 UTC",
+    "Updated At": "2025-09-02 02:25:03.530385727 UTC",
     "Active Request ID": "051afb38-71d7-42e0-898f-0d2e9b9ddb6b",
     "On Chain Address": "f1lhkudy3pi7w4hxneewbzj57uhr5h22xpphujwyq",
     "Multisig Address": "false",
@@ -52,9 +52,18 @@
       "Request Type": "First",
       "Created At": "2025-09-01 03:11:22.449348043 UTC",
       "Updated At": "2025-09-01 03:11:22.449348998 UTC",
-      "Active": true,
+      "Active": false,
       "Allocation Amount": "164926744166400 B",
-      "Signers": []
+      "Amount of Datacap Sent to Contract": "164926744166400 B",
+      "Signers": [
+        {
+          "Github Username": "jenniferAzhou",
+          "Signing Address": "f1a2bvgmjgjx63fa6ehl4rz4neiihrm55qfgywvsa",
+          "Created At": "2025-09-02 02:25:03.355000000 UTC",
+          "Message CID": "bafy2bzaceaxvvat3fkk7cco4qvreqclw46qrou6qggamhxbr6634yffyxc2ea",
+          "Increase allowance CID": "bafy2bzacec4vz6e5prdpnoc23k26q5xgatxh65twf5hznmidw5knv5a7adgbs"
+        }
+      ]
     }
   ],
   "Storage Providers Change Requests": [
@@ -81,9 +90,6 @@
           "Signing Address": "f1a2bvgmjgjx63fa6ehl4rz4neiihrm55qfgywvsa",
           "Set Max Deviation CID": "bafy2bzacebxxczxkeuchvx2gudkkezgvy4biknwp45ikzwvhahgho6al7okfy",
           "Add Allowed Storage Providers CID": {
-            "bafy2bzaceb7vuxkzgivge6gkpi34fbsnsuh44a3hk4nxvzu6v3oahzsz44tpc": [
-              "3373373"
-            ],
             "bafy2bzacedbpdyj2f7d3n67um2tpep2emhrwdrj4y4jcen76b5lppg4vjqekk": [
               "3577777",
               "3577778",
@@ -93,6 +99,9 @@
               "3377778",
               "3373733",
               "3373337"
+            ],
+            "bafy2bzaceb7vuxkzgivge6gkpi34fbsnsuh44a3hk4nxvzu6v3oahzsz44tpc": [
+              "3373373"
             ]
           }
         }
