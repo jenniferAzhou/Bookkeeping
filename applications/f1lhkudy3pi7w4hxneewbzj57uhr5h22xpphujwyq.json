@@ -24,7 +24,7 @@
     "For how long do you plan to keep this dataset stored on Filecoin": "More than 3 years",
     "In which geographies do you plan on making storage deals": "Greater China, Asia other than Greater China, North America, South America",
     "How will you be distributing your data to storage providers": "HTTP or FTP server, Shipping hard drives",
-    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "f03577777  Singapore\nf03577778  Singapore\nf03567898  Shenzhen\nf03567899  Shenzhen\nf03377773 Vietnam\nf03377778 Vietnam\nf03373733 Guangdong\nf03373337 Guangdong\nf03373373 Guangdong",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "f03577777  Singapore\nf03577778  Singapore\nf03567898  Shenzhen\nf03567899  Shenzhen\nf03068297 HK\nf03080038 HK\nf03373733 Guangdong\nf03373337 Guangdong",
     "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "Yes"
   },
   "Datacap": {
@@ -90,6 +90,9 @@
           "Signing Address": "f1a2bvgmjgjx63fa6ehl4rz4neiihrm55qfgywvsa",
           "Set Max Deviation CID": "bafy2bzacebxxczxkeuchvx2gudkkezgvy4biknwp45ikzwvhahgho6al7okfy",
           "Add Allowed Storage Providers CID": {
+            "bafy2bzaceb7vuxkzgivge6gkpi34fbsnsuh44a3hk4nxvzu6v3oahzsz44tpc": [
+              "3373373"
+            ],
             "bafy2bzacedbpdyj2f7d3n67um2tpep2emhrwdrj4y4jcen76b5lppg4vjqekk": [
               "3577777",
               "3577778",
@@ -99,9 +102,6 @@
               "3377778",
               "3373733",
               "3373337"
-            ],
-            "bafy2bzaceb7vuxkzgivge6gkpi34fbsnsuh44a3hk4nxvzu6v3oahzsz44tpc": [
-              "3373373"
             ]
           }
         }
