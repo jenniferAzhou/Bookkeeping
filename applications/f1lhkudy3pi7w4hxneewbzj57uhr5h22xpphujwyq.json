@@ -36,7 +36,7 @@
     "Weekly Allocation": "1PiB"
   },
   "Lifecycle": {
-    "State": "ChangesRequested",
+    "State": "Granted",
     "Validated At": "2025-09-02 02:25:03.530389687 UTC",
     "Validated By": "jenniferAzhou",
     "Active": true,
@@ -90,6 +90,9 @@
           "Signing Address": "f1a2bvgmjgjx63fa6ehl4rz4neiihrm55qfgywvsa",
           "Set Max Deviation CID": "bafy2bzacebxxczxkeuchvx2gudkkezgvy4biknwp45ikzwvhahgho6al7okfy",
           "Add Allowed Storage Providers CID": {
+            "bafy2bzaceb7vuxkzgivge6gkpi34fbsnsuh44a3hk4nxvzu6v3oahzsz44tpc": [
+              "3373373"
+            ],
             "bafy2bzacedbpdyj2f7d3n67um2tpep2emhrwdrj4y4jcen76b5lppg4vjqekk": [
               "3577777",
               "3577778",
@@ -99,9 +102,6 @@
               "3377778",
               "3373733",
               "3373337"
-            ],
-            "bafy2bzaceb7vuxkzgivge6gkpi34fbsnsuh44a3hk4nxvzu6v3oahzsz44tpc": [
-              "3373373"
             ]
           }
         }
