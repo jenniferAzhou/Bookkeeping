@@ -36,11 +36,11 @@
     "Weekly Allocation": "1PiB"
   },
   "Lifecycle": {
-    "State": "ReadyToSign",
-    "Validated At": "2025-09-04 11:29:59.437597922 UTC",
+    "State": "Granted",
+    "Validated At": "2025-09-04 11:32:41.184999285 UTC",
     "Validated By": "jenniferAzhou",
     "Active": true,
-    "Updated At": "2025-09-04 11:29:59.437601383 UTC",
+    "Updated At": "2025-09-04 11:32:41.184995342 UTC",
     "Active Request ID": "ba811cae-e9df-451e-8704-e8ead4e87467",
     "On Chain Address": "f1lhkudy3pi7w4hxneewbzj57uhr5h22xpphujwyq",
     "Multisig Address": "false",
@@ -70,9 +70,18 @@
       "Request Type": "Refill",
       "Created At": "2025-09-04 11:29:59.437606810 UTC",
       "Updated At": "2025-09-04 11:29:59.437607657 UTC",
-      "Active": true,
+      "Active": false,
       "Allocation Amount": "329853488332800B",
-      "Signers": []
+      "Amount of Datacap Sent to Contract": "329853488332800B",
+      "Signers": [
+        {
+          "Github Username": "jenniferAzhou",
+          "Signing Address": "f1a2bvgmjgjx63fa6ehl4rz4neiihrm55qfgywvsa",
+          "Created At": "2025-09-04 11:32:38.869000000 UTC",
+          "Message CID": "bafy2bzaced6drjyevn7jfh6vqqs4gpd5vxewia5nf3qvahstj6longdx4zena",
+          "Increase allowance CID": "bafy2bzacedqvwxbbw7ywdbgujdafbru6rkmmyytihds7eaxupodyhn4q7j326"
+        }
+      ]
     }
   ],
   "Storage Providers Change Requests": [
@@ -99,9 +108,6 @@
           "Signing Address": "f1a2bvgmjgjx63fa6ehl4rz4neiihrm55qfgywvsa",
           "Set Max Deviation CID": "bafy2bzacebxxczxkeuchvx2gudkkezgvy4biknwp45ikzwvhahgho6al7okfy",
           "Add Allowed Storage Providers CID": {
-            "bafy2bzaceb7vuxkzgivge6gkpi34fbsnsuh44a3hk4nxvzu6v3oahzsz44tpc": [
-              "3373373"
-            ],
             "bafy2bzacedbpdyj2f7d3n67um2tpep2emhrwdrj4y4jcen76b5lppg4vjqekk": [
               "3577777",
               "3577778",
@@ -111,6 +117,9 @@
               "3377778",
               "3373733",
               "3373337"
+            ],
+            "bafy2bzaceb7vuxkzgivge6gkpi34fbsnsuh44a3hk4nxvzu6v3oahzsz44tpc": [
+              "3373373"
             ]
           }
         }
