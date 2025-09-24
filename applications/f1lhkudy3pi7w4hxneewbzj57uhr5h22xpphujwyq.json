@@ -37,11 +37,11 @@
   },
   "Lifecycle": {
     "State": "Granted",
-    "Validated At": "2025-09-18 01:31:34.190447067 UTC",
+    "Validated At": "2025-09-24 02:59:36.062231647 UTC",
     "Validated By": "jenniferAzhou",
     "Active": true,
-    "Updated At": "2025-09-18 01:31:34.190443033 UTC",
-    "Active Request ID": "af5c1912-1801-47a5-bbbf-2c5ffa19d27a",
+    "Updated At": "2025-09-24 02:59:36.062230862 UTC",
+    "Active Request ID": "54295405-04ff-4039-ba62-3018d0588f6f",
     "On Chain Address": "f1lhkudy3pi7w4hxneewbzj57uhr5h22xpphujwyq",
     "Multisig Address": "false",
     "edited": false
@@ -144,6 +144,9 @@
           "Signing Address": "f1a2bvgmjgjx63fa6ehl4rz4neiihrm55qfgywvsa",
           "Set Max Deviation CID": "bafy2bzacebxxczxkeuchvx2gudkkezgvy4biknwp45ikzwvhahgho6al7okfy",
           "Add Allowed Storage Providers CID": {
+            "bafy2bzaceb7vuxkzgivge6gkpi34fbsnsuh44a3hk4nxvzu6v3oahzsz44tpc": [
+              "3373373"
+            ],
             "bafy2bzacedbpdyj2f7d3n67um2tpep2emhrwdrj4y4jcen76b5lppg4vjqekk": [
               "3577777",
               "3577778",
@@ -153,9 +156,6 @@
               "3377778",
               "3373733",
               "3373337"
-            ],
-            "bafy2bzaceb7vuxkzgivge6gkpi34fbsnsuh44a3hk4nxvzu6v3oahzsz44tpc": [
-              "3373373"
             ]
           }
         }
@@ -191,6 +191,44 @@
               "3377773",
               "3377778",
               "3373373"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "ID": "93f36f4d-8857-428f-b425-7a1c188c6bd3",
+      "Created At": "2025-09-24 02:59:36.062209638 UTC",
+      "Updated At": "2025-09-24 02:59:36.062213725 UTC",
+      "Active": false,
+      "Allowed Storage Providers": [
+        3577777,
+        3577778,
+        3567898,
+        3567899,
+        3080038,
+        3068297,
+        3373733,
+        3373337,
+        3519199,
+        3519200,
+        3519208,
+        2808899,
+        3175111,
+        3175168
+      ],
+      "Signers": [
+        {
+          "Github Username": "jenniferAzhou",
+          "Signing Address": "f1a2bvgmjgjx63fa6ehl4rz4neiihrm55qfgywvsa",
+          "Add Allowed Storage Providers CID": {
+            "bafy2bzacea7ngb2idgego462t4pcoe2fgmr2shwskqdjmfuqykvoeb4gh36wk": [
+              "3519199",
+              "3519200",
+              "3519208",
+              "2808899",
+              "3175111",
+              "3175168"
             ]
           }
         }
