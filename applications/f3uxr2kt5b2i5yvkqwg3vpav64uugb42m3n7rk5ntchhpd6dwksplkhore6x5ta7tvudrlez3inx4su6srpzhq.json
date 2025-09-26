@@ -1,0 +1,49 @@
+{
+  "Version": "1.3",
+  "ID": "f3uxr2kt5b2i5yvkqwg3vpav64uugb42m3n7rk5ntchhpd6dwksplkhore6x5ta7tvudrlez3inx4su6srpzhq",
+  "Issue Number": "18",
+  "Client": {
+    "Name": "European Centre for Medium-Range Weather Forecasts",
+    "Region": "Germany",
+    "Industry": "Environment",
+    "Website": "https://www.ecmwf.int/",
+    "Social Media": "https://confluence.ecmwf.int/site/support",
+    "Social Media Type": "Slack",
+    "Role": "Data Preparer"
+  },
+  "Project": {
+    "Brief history of your project and organization": "These products are a subset of the ECMWF real-time forecast data and are made available to the public free of charge. They are based on the medium-range (high-resolution and ensemble) and seasonal forecast models. Products are available at 0.4 degrees resolution in GRIB2 format unless stated otherwise.",
+    "Is this project associated with other projects/ecosystem stakeholders?": "Yes",
+    "Describe the data being stored onto Filecoin": "aws s3 ls --no-sign-request s3://ecmwf-forecasts/\nTotal Size: 2398.37 TiB",
+    "Where was the data currently stored in this dataset sourced from": "AWS Cloud",
+    "How do you plan to prepare the dataset": "We will use the Boost tool and  graphsplit to make a car file.",
+    "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "aws s3 ls --no-sign-request s3://ecmwf-forecasts/\nTotal Size: 2398.37 TiB",
+    "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "[x] I confirm",
+    "What is the expected retrieval frequency for this data": "Daily",
+    "For how long do you plan to keep this dataset stored on Filecoin": "More than 3 years",
+    "In which geographies do you plan on making storage deals": "Europe",
+    "How will you be distributing your data to storage providers": "Cloud storage (i.e. S3), Lotus built-in data transfer",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "f01083499 Hongkong\nf01084949 Hongkong\nf01083768 Seoul\nf01084968 Paris\nf01083688 Dublin\nf01084788 Tokyo",
+    "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "Yes"
+  },
+  "Datacap": {
+    "Type": "ldn-v3",
+    "Data Type": "Slingshot",
+    "Total Requested Amount": "6BIP",
+    "Single Size Dataset": "1000TiB",
+    "Replicas": 6,
+    "Weekly Allocation": "10000TiB"
+  },
+  "Lifecycle": {
+    "State": "Submitted",
+    "Validated At": "",
+    "Validated By": "",
+    "Active": true,
+    "Updated At": "2025-09-26 02:43:38.521533121 UTC",
+    "Active Request ID": "",
+    "On Chain Address": "f3uxr2kt5b2i5yvkqwg3vpav64uugb42m3n7rk5ntchhpd6dwksplkhore6x5ta7tvudrlez3inx4su6srpzhq",
+    "Multisig Address": "false",
+    "edited": false
+  },
+  "Allocation Requests": []
+}
