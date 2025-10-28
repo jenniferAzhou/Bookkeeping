@@ -2,6 +2,7 @@
   "Version": "1.3",
   "ID": "f3uxr2kt5b2i5yvkqwg3vpav64uugb42m3n7rk5ntchhpd6dwksplkhore6x5ta7tvudrlez3inx4su6srpzhq",
   "Issue Number": "18",
+  "Client Contract Address": "f410fersq5lrlyfkolgvkkbljgn5qvmor2hueiqel3uq",
   "Client": {
     "Name": "European Centre for Medium-Range Weather Forecasts",
     "Region": "Germany",
@@ -35,15 +36,25 @@
     "Weekly Allocation": "500TiB"
   },
   "Lifecycle": {
-    "State": "KYCRequested",
-    "Validated At": "",
-    "Validated By": "",
+    "State": "ReadyToSign",
+    "Validated At": "2025-10-28 01:08:44.842638389 UTC",
+    "Validated By": "jenniferAzhou",
     "Active": true,
-    "Updated At": "2025-10-27 08:18:12.260413439 UTC",
-    "Active Request ID": "",
+    "Updated At": "2025-10-28 01:08:44.842641876 UTC",
+    "Active Request ID": "c70da1c8-9748-4a4d-ac06-747526e01103",
     "On Chain Address": "f3uxr2kt5b2i5yvkqwg3vpav64uugb42m3n7rk5ntchhpd6dwksplkhore6x5ta7tvudrlez3inx4su6srpzhq",
     "Multisig Address": "false",
     "edited": false
   },
-  "Allocation Requests": []
+  "Allocation Requests": [
+    {
+      "ID": "c70da1c8-9748-4a4d-ac06-747526e01103",
+      "Request Type": "First",
+      "Created At": "2025-10-28 01:08:44.842644258 UTC",
+      "Updated At": "2025-10-28 01:08:44.842645543 UTC",
+      "Active": true,
+      "Allocation Amount": "109951162777600 B",
+      "Signers": []
+    }
+  ]
 }
