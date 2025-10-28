@@ -37,10 +37,10 @@
   },
   "Lifecycle": {
     "State": "ReadyToSign",
-    "Validated At": "2025-10-28 01:08:44.842638389 UTC",
+    "Validated At": "2025-10-28 01:14:04.502176740 UTC",
     "Validated By": "jenniferAzhou",
     "Active": true,
-    "Updated At": "2025-10-28 01:08:44.842641876 UTC",
+    "Updated At": "2025-10-28 01:14:04.502175896 UTC",
     "Active Request ID": "c70da1c8-9748-4a4d-ac06-747526e01103",
     "On Chain Address": "f3uxr2kt5b2i5yvkqwg3vpav64uugb42m3n7rk5ntchhpd6dwksplkhore6x5ta7tvudrlez3inx4su6srpzhq",
     "Multisig Address": "false",
@@ -55,6 +55,36 @@
       "Active": true,
       "Allocation Amount": "109951162777600 B",
       "Signers": []
+    }
+  ],
+  "Storage Providers Change Requests": [
+    {
+      "ID": "141efdee-4fa3-4592-a519-140e66774e77",
+      "Created At": "2025-10-28 01:14:04.502161457 UTC",
+      "Updated At": "2025-10-28 01:14:04.502168280 UTC",
+      "Active": false,
+      "Allowed Storage Providers": [
+        1084949,
+        1083768,
+        1084968,
+        1083688
+      ],
+      "Max Deviation": "10%",
+      "Signers": [
+        {
+          "Github Username": "jenniferAzhou",
+          "Signing Address": "f1a2bvgmjgjx63fa6ehl4rz4neiihrm55qfgywvsa",
+          "Set Max Deviation CID": "bafy2bzacecqlzv7e6gptxwr5lso7vppgg2bzxhmtghctnf2d6y56odle62s2i",
+          "Add Allowed Storage Providers CID": {
+            "bafy2bzaced2wgmh25aqsi3aqkrypjatikeikywf74jpguxrgdwikob5wort3e": [
+              "1084949",
+              "1083768",
+              "1084968",
+              "1083688"
+            ]
+          }
+        }
+      ]
     }
   ]
 }
