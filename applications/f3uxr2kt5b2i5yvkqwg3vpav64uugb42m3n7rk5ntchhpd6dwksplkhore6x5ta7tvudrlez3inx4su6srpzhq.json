@@ -36,11 +36,11 @@
     "Weekly Allocation": "500TiB"
   },
   "Lifecycle": {
-    "State": "ReadyToSign",
-    "Validated At": "2025-10-28 01:14:04.502176740 UTC",
+    "State": "Granted",
+    "Validated At": "2025-10-28 01:15:39.058572684 UTC",
     "Validated By": "jenniferAzhou",
     "Active": true,
-    "Updated At": "2025-10-28 01:14:04.502175896 UTC",
+    "Updated At": "2025-10-28 01:15:39.058567725 UTC",
     "Active Request ID": "c70da1c8-9748-4a4d-ac06-747526e01103",
     "On Chain Address": "f3uxr2kt5b2i5yvkqwg3vpav64uugb42m3n7rk5ntchhpd6dwksplkhore6x5ta7tvudrlez3inx4su6srpzhq",
     "Multisig Address": "false",
@@ -52,9 +52,16 @@
       "Request Type": "First",
       "Created At": "2025-10-28 01:08:44.842644258 UTC",
       "Updated At": "2025-10-28 01:08:44.842645543 UTC",
-      "Active": true,
+      "Active": false,
       "Allocation Amount": "109951162777600 B",
-      "Signers": []
+      "Signers": [
+        {
+          "Github Username": "jenniferAzhou",
+          "Signing Address": "f1a2bvgmjgjx63fa6ehl4rz4neiihrm55qfgywvsa",
+          "Created At": "2025-10-28 01:15:38.776000000 UTC",
+          "Increase allowance CID": "bafy2bzaceb6sv2vh3kzteosw4btiykv67p7rfbvqdf2alda2g3nxf4gqbxt6e"
+        }
+      ]
     }
   ],
   "Storage Providers Change Requests": [
