@@ -1,0 +1,49 @@
+{
+  "Version": "1.3",
+  "ID": "f1kynuznc5bqrdbww6acrhwvygsfvmtk4uqxnejyq",
+  "Issue Number": "20",
+  "Client": {
+    "Name": "Hubei Reborn Biotech Co., Ltd.",
+    "Region": "China",
+    "Industry": "Life Science / Healthcare",
+    "Website": "https://www.chinacollagen.net/",
+    "Social Media": "https://www.chinacollagen.net/",
+    "Social Media Type": "Other",
+    "Role": "Dataset Owner"
+  },
+  "Project": {
+    "Brief history of your project and organization": "Hubei Ruibang Biotechnology Co., Ltd., established in December 2007 and located in Jingzhou Development Zone, Hubei Province, has a registered capital of 100 million yuan. The company covers an area of over 400 mu (approximately 66.67 hectares) and currently employs more than 300 staff members, with an annual production capacity of 10,000 tons. It specializes in biological active peptide series products (including various animal peptides and plant peptides). Since 2005, the company has been dedicated to researching and developing biological active peptide production technologies, making it one of the founding enterprises in China's biological active peptide industry and a leading player among biological active peptide manufacturers. At present, the company's production capacity ranks first in China and third globally.",
+    "Is this project associated with other projects/ecosystem stakeholders?": "No",
+    "Describe the data being stored onto Filecoin": "A research video on bioactive peptide series products, which are suitable for many fields such as beauty, food, health products, and medicine. Successfully developed a series of products including fish collagen peptide, ovalbumin peptide, soy peptide, turtle shell peptide, corn peptide, etc",
+    "Where was the data currently stored in this dataset sourced from": "My Own Storage Infra",
+    "How do you plan to prepare the dataset": "We generate and send cars and related orders based on this document: \n\nhttps://github.com/tech-greedy/singularity/blob/main/getting-started.md.\n\nWe have thoroughly tested it.",
+    "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "https://www.chinacollagen.net/gcsp/238.html\nhttps://www.chinacollagen.net/gcsp/474.html\nhttps://www.chinacollagen.net/gcsp/439.html\nhttps://www.chinacollagen.net/gsxw/",
+    "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "[x] I confirm",
+    "What is the expected retrieval frequency for this data": "Yearly",
+    "For how long do you plan to keep this dataset stored on Filecoin": "More than 3 years",
+    "In which geographies do you plan on making storage deals": "Greater China, Asia other than Greater China, North America, South America",
+    "How will you be distributing your data to storage providers": "HTTP or FTP server, Shipping hard drives",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "f03559991 guangzhou\nf03559992 guangzhou\nf03559993 guangzhou\nf03559994 guangzhou\nf03559995 Hong Kong\nf03573579 United States\nf03593579 United States\nf03573377 Thailand",
+    "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "Yes"
+  },
+  "Datacap": {
+    "Type": "ldn-v3",
+    "Data Type": "Slingshot",
+    "Total Requested Amount": "5PiB",
+    "Single Size Dataset": "630TiB",
+    "Replicas": 8,
+    "Weekly Allocation": "2PiB"
+  },
+  "Lifecycle": {
+    "State": "Submitted",
+    "Validated At": "",
+    "Validated By": "",
+    "Active": true,
+    "Updated At": "2025-11-20 03:26:08.410643168 UTC",
+    "Active Request ID": "",
+    "On Chain Address": "f1kynuznc5bqrdbww6acrhwvygsfvmtk4uqxnejyq",
+    "Multisig Address": "false",
+    "edited": false
+  },
+  "Allocation Requests": []
+}
