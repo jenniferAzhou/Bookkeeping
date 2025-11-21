@@ -37,11 +37,11 @@
   },
   "Lifecycle": {
     "State": "Granted",
-    "Validated At": "2025-11-21 03:02:04.867064668 UTC",
+    "Validated At": "2025-11-21 03:29:08.949421406 UTC",
     "Validated By": "jenniferAzhou",
     "Active": true,
-    "Updated At": "2025-11-21 03:02:04.867060302 UTC",
-    "Active Request ID": "0f35b60b-6168-4da2-8b1c-9c8135e679a0",
+    "Updated At": "2025-11-21 03:29:08.949420395 UTC",
+    "Active Request ID": "c44e5fce-1018-4bec-a1e1-f0158ff8a072",
     "On Chain Address": "f1lhkudy3pi7w4hxneewbzj57uhr5h22xpphujwyq",
     "Multisig Address": "false",
     "edited": false
@@ -152,6 +152,22 @@
           "Increase allowance CID": "bafy2bzacebz65pybulgavx6btnqjpnuy4jckb4jp2m2uaft26lcfsctydvbg2"
         }
       ]
+    },
+    {
+      "ID": "c44e5fce-1018-4bec-a1e1-f0158ff8a072",
+      "Request Type": "Decrease",
+      "Created At": "2025-11-21 03:29:08.949353237 UTC",
+      "Updated At": "2025-11-21 03:29:08.949359259 UTC",
+      "Active": false,
+      "Allocation Amount": "-274877906944000 B",
+      "Signers": [
+        {
+          "Github Username": "jenniferAzhou",
+          "Signing Address": "f1a2bvgmjgjx63fa6ehl4rz4neiihrm55qfgywvsa",
+          "Created At": "2025-11-21 03:29:08.949413547 UTC",
+          "Message CID": "bafy2bzacec7zdycnwkim4wycuzhiojgwmayob5lgtdngg5vkve7yz7axab7i2"
+        }
+      ]
     }
   ],
   "Storage Providers Change Requests": [
@@ -178,6 +194,9 @@
           "Signing Address": "f1a2bvgmjgjx63fa6ehl4rz4neiihrm55qfgywvsa",
           "Set Max Deviation CID": "bafy2bzacebxxczxkeuchvx2gudkkezgvy4biknwp45ikzwvhahgho6al7okfy",
           "Add Allowed Storage Providers CID": {
+            "bafy2bzaceb7vuxkzgivge6gkpi34fbsnsuh44a3hk4nxvzu6v3oahzsz44tpc": [
+              "3373373"
+            ],
             "bafy2bzacedbpdyj2f7d3n67um2tpep2emhrwdrj4y4jcen76b5lppg4vjqekk": [
               "3577777",
               "3577778",
@@ -187,9 +206,6 @@
               "3377778",
               "3373733",
               "3373337"
-            ],
-            "bafy2bzaceb7vuxkzgivge6gkpi34fbsnsuh44a3hk4nxvzu6v3oahzsz44tpc": [
-              "3373373"
             ]
           }
         }
