@@ -2,6 +2,7 @@
   "Version": "1.3",
   "ID": "f1kynuznc5bqrdbww6acrhwvygsfvmtk4uqxnejyq",
   "Issue Number": "20",
+  "Client Contract Address": "f410fersq5lrlyfkolgvkkbljgn5qvmor2hueiqel3uq",
   "Client": {
     "Name": "Hubei Reborn Biotech Co., Ltd.",
     "Region": "China",
@@ -35,15 +36,25 @@
     "Weekly Allocation": "2PiB"
   },
   "Lifecycle": {
-    "State": "Submitted",
-    "Validated At": "",
-    "Validated By": "",
+    "State": "ReadyToSign",
+    "Validated At": "2025-11-21 03:15:03.433052155 UTC",
+    "Validated By": "jenniferAzhou",
     "Active": true,
-    "Updated At": "2025-11-20 03:26:08.410643168 UTC",
-    "Active Request ID": "",
+    "Updated At": "2025-11-21 03:15:03.433056735 UTC",
+    "Active Request ID": "4e0804c1-bdb0-47da-a117-20316cdcd555",
     "On Chain Address": "f1kynuznc5bqrdbww6acrhwvygsfvmtk4uqxnejyq",
     "Multisig Address": "false",
     "edited": false
   },
-  "Allocation Requests": []
+  "Allocation Requests": [
+    {
+      "ID": "4e0804c1-bdb0-47da-a117-20316cdcd555",
+      "Request Type": "First",
+      "Created At": "2025-11-21 03:15:03.433059478 UTC",
+      "Updated At": "2025-11-21 03:15:03.433060220 UTC",
+      "Active": true,
+      "Allocation Amount": "274877906944000 B",
+      "Signers": []
+    }
+  ]
 }
