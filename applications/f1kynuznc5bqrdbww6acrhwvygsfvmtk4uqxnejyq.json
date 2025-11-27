@@ -36,11 +36,11 @@
     "Weekly Allocation": "2PiB"
   },
   "Lifecycle": {
-    "State": "ReadyToSign",
-    "Validated At": "2025-11-27 09:32:27.115623757 UTC",
+    "State": "Granted",
+    "Validated At": "2025-11-27 09:36:06.565173785 UTC",
     "Validated By": "jenniferAzhou",
     "Active": true,
-    "Updated At": "2025-11-27 09:32:27.115627834 UTC",
+    "Updated At": "2025-11-27 09:36:06.565170412 UTC",
     "Active Request ID": "f51a26ce-2796-4f4c-9468-40db165fc5e6",
     "On Chain Address": "f1kynuznc5bqrdbww6acrhwvygsfvmtk4uqxnejyq",
     "Multisig Address": "false",
@@ -88,9 +88,18 @@
       "Request Type": "Refill",
       "Created At": "2025-11-27 09:32:27.115634777 UTC",
       "Updated At": "2025-11-27 09:32:27.115635775 UTC",
-      "Active": true,
+      "Active": false,
       "Allocation Amount": "824633720832000B",
-      "Signers": []
+      "Amount of Datacap Sent to Contract": "824633720832000B",
+      "Signers": [
+        {
+          "Github Username": "jenniferAzhou",
+          "Signing Address": "f1a2bvgmjgjx63fa6ehl4rz4neiihrm55qfgywvsa",
+          "Created At": "2025-11-27 09:36:02.655000000 UTC",
+          "Message CID": "bafy2bzacecwsamptms5jodgtivxexfhu2imx35rwmamtvrs5qky3dlrqv7my4",
+          "Increase allowance CID": "bafy2bzacedzgqz25iwlumv7ruhci4g26lrk45rhlzh6sngvgtgsdsvqft6pjy"
+        }
+      ]
     }
   ],
   "Storage Providers Change Requests": [
